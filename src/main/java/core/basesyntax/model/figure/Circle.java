@@ -1,7 +1,9 @@
 package core.basesyntax.model.figure;
 
+import javax.persistence.Entity;
 import javax.persistence.Table;
 
+@Entity
 @Table(name = "circle")
 public class Circle extends Figure {
     private int radius;
